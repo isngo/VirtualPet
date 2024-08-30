@@ -1,4 +1,3 @@
-
 void setup(){
   size(500,500);
   background(71,191,255);
@@ -16,10 +15,15 @@ void draw(){
   ellipse(180,270,100,100);
   
   //face
-  fill(222,138,20);
+  fill(240,218,129);
   ellipse(250,200,200,200);
   
-  //eyes
+  //sclera
+  fill(255,255,255);
+  ellipse(200,180,60,50);
+  ellipse(300,180,60,50);
+  
+  //iris
   fill(70,163,69);
   ellipse(200,180,40,50);
   ellipse(300,180,40,50);
@@ -34,13 +38,16 @@ void draw(){
   ellipse(210,165,10,10);
   ellipse(310,165,10,10);
   
+  //eyebrows
+  line(220,145,190,140);
+  line(280,145,310,140);
+  
   //mouth
   fill(224,114,114);
   ellipse(250,250,70,50);
   
   //teeth
   fill(255,255,255);
-  arc(250,250,70,50,PI,PI*2);
+  arc(250,235,50,20,PI,PI*2);
   
 }
-
